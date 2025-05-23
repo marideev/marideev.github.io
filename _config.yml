@@ -1,0 +1,42 @@
+# 사이트 정보
+title: "나의 블로그"
+description: "Jekyll과 함께하는 정적 블로그"
+url: "https://marideev.github.io"  # GitHub Pages 주소
+baseurl: ""  # 루트라면 "" 비워두기
+
+# 작성자 정보 (선택)
+author:
+  name: "홍길동"
+  email: "hong@example.com"
+
+# 마크다운 엔진 설정
+markdown: kramdown
+kramdown:
+  input: GFM  # GitHub Flavored Markdown
+
+# 포스트 설정
+permalink: /:year/:month/:day/:title/
+timezone: Asia/Seoul
+
+# 폴더 설정
+collections:
+  posts:
+    output: true
+
+# 테마 설정 (선택)
+theme: minima  # Jekyll 기본 테마
+
+# 플러그인 (GitHub Pages에서 지원되는 것만)
+plugins:
+  - jekyll-feed        # RSS 피드
+  - jekyll-seo-tag     # SEO 자동 메타태그
+  - jekyll-sitemap     # sitemap.xml 생성
+
+# Build 제외 설정 (선택)
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# 기타
+show_excerpts: true
