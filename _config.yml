@@ -18,8 +18,12 @@ just_the_docs:
   collections:
     docs:
       name: Documentation
-      permalink: /:collection/:path/
-      output: true
+
+# 폴더 설정
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
 
 # 마크다운 엔진 설정
 markdown: kramdown
@@ -29,11 +33,6 @@ kramdown:
 # 포스트 설정
 permalink: /:year/:month/:day/:title/
 timezone: Asia/Seoul
-
-# 폴더 설정
-collections:
-  posts:
-    output: true
 
 
 # 플러그인 (GitHub Pages에서 지원되는 것만)
