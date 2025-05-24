@@ -1,8 +1,16 @@
 # index.md
 ---
-layout: default
-title: 홈
+layout: home
+title: titll_home
 ---
 
-# 안녕하세요!
-Jekyll 블로그에 오신 것을 환영합니다.
+<!-- HTML의 주석처리 방식: 이곳은 뭐라 정의하지-->
+안녕하세요! 👋  
+이 GitHub Pages는 Jekyll 기반으로 만들어졌습니다.
+(GPT가 만들어 줬어요.)
+
+- 📚 포트폴리오
+- 🧪 프로젝트 소개
+- ✉️ 연락처 등등
+
+상단 메뉴나 아래 내용을 통해 더 많은 정보를 확인할 수 있어요.

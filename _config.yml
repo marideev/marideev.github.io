@@ -1,6 +1,6 @@
 # 사이트 정보
-title: "나의 블로그"
-description: "Jekyll과 함께하는 정적 블로그"
+title: "Contig.y title"
+description: "Config.y dexcription"
 url: "https://marideev.github.io"  # GitHub Pages 주소
 baseurl: ""  # 루트라면 "" 비워두기
 
