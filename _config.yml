@@ -1,13 +1,24 @@
 # 사이트 정보
-title: "Contig.y title"
-description: "Config.y dexcription"
+title: "1도 몰라서 쓰는 " # 블로그 제목
+description: "언제 1을 쓰고 2를 쓸까" # 블로그 설명
 url: "https://marideev.github.io"  # GitHub Pages 주소
 baseurl: ""  # 루트라면 "" 비워두기
 
+# 테마 설정 (선택)
+theme: just-the-docs
+
 # 작성자 정보 (선택)
 author:
-  name: "홍길동"
+  name: "marius"
   email: "hong@example.com"
+
+# 사이드바 구성
+just_the_docs:
+  collections:
+    docs:
+      name: Documentation
+      permalink: /:collection/:path/
+      output: true
 
 # 마크다운 엔진 설정
 markdown: kramdown
@@ -23,8 +34,6 @@ collections:
   posts:
     output: true
 
-# 테마 설정 (선택)
-theme: minima  # Jekyll 기본 테마
 
 # 플러그인 (GitHub Pages에서 지원되는 것만)
 plugins:
