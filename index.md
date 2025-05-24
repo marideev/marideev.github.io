@@ -4,6 +4,11 @@ layout: default
 nav_order: 0
 ---
 
+# {{ site.title }}
+
+_{{ site.description }}_
+
+
 # 환영합니다 👋
 
 이 사이트는 Just the Docs 테마로 만들어졌습니다.
