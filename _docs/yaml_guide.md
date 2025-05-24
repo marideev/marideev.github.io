@@ -5,6 +5,8 @@ parent: Documentation
 layout: default
 ---
 
+GPT가 작성
+
 YAML은 "YAML Ain’t Markup Language"의 약자로, **사람이 읽기 쉬운 데이터 직렬화 포맷**입니다. 주로 설정 파일(`.yml` 또는 `.yaml`)에서 사용되며, JSON보다 간결하고 들여쓰기를 통해 계층 구조를 표현합니다.
 
 ---

@@ -18,10 +18,15 @@ just_the_docs:
   collections:
     docs:
       name: config_정리된 문서들
+    docs2:
+      name: config_정리된 문서들2
 
 # 폴더 설정
 collections:
   docs:
+    output: true
+    permalink: /:collection/:path/
+  docs2:
     output: true
     permalink: /:collection/:path/
 
