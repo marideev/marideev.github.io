@@ -4,8 +4,9 @@ description: "언제 1을 쓰고 2를 쓸까" # 블로그 설명
 url: "https://marideev.github.io"  # GitHub Pages 주소
 baseurl: ""  # 루트라면 "" 비워두기
 
-# 테마 설정 (선택)
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
 
 # 작성자 정보 (선택)
 author:
