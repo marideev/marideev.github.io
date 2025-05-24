@@ -1,5 +1,5 @@
 ---
-title: Category 1
+title: yaml 101
 nav_order: 1
 parent: Documentation
 ---
