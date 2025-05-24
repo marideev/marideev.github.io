@@ -17,7 +17,7 @@ author:
 just_the_docs:
   collections:
     docs:
-      name: Documentation
+      name: config_정리된 문서들
 
 # 폴더 설정
 collections:
