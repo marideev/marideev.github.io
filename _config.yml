@@ -11,7 +11,7 @@ plugins:
 # 작성자 정보 (선택)
 author:
   name: "marius"
-  email: "hong@example.com"
+  email: "honghong@example.com"
 
 # 사이드바 구성
 just_the_docs:
@@ -47,6 +47,7 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - _posts
 
 # 기타
 show_excerpts: true
