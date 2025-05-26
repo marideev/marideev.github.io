@@ -5,6 +5,9 @@ parent: Documentation
 layout: default
 ---
 
+최초 작성: 25.05.26(월)
+수정: xx.xx.xx 
+
 
 # GitHub Pages 사이트 만들기
 > <a href="https://docs.github.com/ko/pages/getting-started-with-github-pages/creating-a-github-pages-site" target="_blank"> Github pages 사이트 만들기 </a> 페이지로 넘어가 보자.
@@ -36,3 +39,5 @@ title: 홈
 # 안녕하세요!
 Jekyll 블로그에 오신 것을 환영합니다.
 ```
+
+`index.md` 만 저장소에 넣어놔도 나만의 페이지가 만들어진 것을 확인할 수 있다. 다만 아무것도 없는 대문이다. 다음 단계로 넘어가야 한다.
