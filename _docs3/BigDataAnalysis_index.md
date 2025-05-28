@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation2
+title: 빅데이터분석기사 실기
 nav_order: 0
 has_children: true
 ---

@@ -19,7 +19,9 @@ just_the_docs:
     docs:
       name: config_정리된 문서들
     docs2:
-      name: config_정리된 문서들2
+      name: 전기기사
+    docs3:
+      name: 빅분기
 
 # 폴더 설정
 collections:
@@ -27,6 +29,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   docs2:
+    output: true
+    permalink: /:collection/:path/
+  docs3:
     output: true
     permalink: /:collection/:path/
 
